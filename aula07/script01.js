@@ -1,6 +1,6 @@
 let titulo = document.getElementById("titulo");
 let imagem = document.getElementById("imagem");
-titulo.innerText = "Olá pessoa";
+titulo.innerText = "Oieeeeeee :)";
 
 titulo.style.color = "purple";
 
