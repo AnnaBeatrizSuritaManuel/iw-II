@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirmação de Exclusão</title>
+</head>
+<body>
+    <button onclick="deletar()">APAGAR ITEM</button>
+
+    <script>
+        function deletar() {
+            let botao = document.getElementById("meuBotao");
+
+            if (confirm("Deseja realmente apagar o item?")) {
+                alert("O item foi apagado com sucesso!");
+            } else {
+                alert("Ação de exclusão foi cancelada.");
+            }
+
+            // Linha abaixo removida pois não é necessária:
+            // botao.onclick = deletar();
+        }
+    </script>
+</body>
+</html>
