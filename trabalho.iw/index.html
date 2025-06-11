@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Formulário Trabalho</title>
+<script>
+// Função será chamada quando clicarem no botão
+function mostrarMensagem() {
+// Pega o valor que digitaram no local nome
+var nome =document.getElementById("nome").value;
+// Mostra uma mensagem com o nome digitado
+alert("0ie. "+ nome+"! Seu formulario foi enviado com sucesso.Muito obrigada ");
+}
+</script>
+</head>
+<body>
+<h2>Formulário do Trabalho</h2>
+<!-- Cria um formulário com um campo para texto e um botão -->
+<form>
+<label for="nome">Digite seu nome: </label>
+<input type="text" id="nome" name="nome"><br><br>
+<!-- Botão que chama a função quando clicam nele -->
+<button type="button" onclick=" mostrarMensagem()">Enviar</button>
+</form>
+</body>
+</html>
+
+
+
+
+<!-- 
+<button onclick="myFunction ()"
+>Click aqui</button>
+
+<input type="text"
+onkeyup="myFunction ()">
+
+<input type="text"
+onblur="myFunction()">
+
+<input type="text"
+onkeydown="myFunction()">
+
+<input type="text"
+onfocus="myFunction ()"> 
+-->
